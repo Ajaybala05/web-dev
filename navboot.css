@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1559919449-79099f7e2966?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+section {
+    width: 50%;
+    height: 50%;
+}
